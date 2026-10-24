@@ -60,7 +60,7 @@
 
 <script>
 /* ===== Адрес сервера приходит в ссылке (?api=…) — бот берёт его с листа «Настройки». Этот файл НЕ нужно править ни для какого региона ===== */
-var API_URL = new URLSearchParams(location.search).get('api') || '';
+var API_URL = new URLSearchParams(location.search).get('api') || 'https://script.google.com/macros/s/AKfycbw_rRISZxpHDQuc-TR3tbVrq2XOxgdFC-tI60BwSGKT3Mm_VNoZ_GN56YgPXGoDZMtx/exec';
 if (!API_URL) alert('Не задан адрес сервера. Откройте приложение через кнопку в боте.');
 /* ========================================================================================= */
 
